@@ -1,0 +1,24 @@
+<script setup lang="ts">
+const route = useRoute()
+</script>
+
+<template>
+  <div>
+    <i class="pi pi-check"></i>
+    <i class="pi pi-times"></i>
+    <span class="pi pi-search"></span>
+    <span class="pi pi-user"></span>
+    <p>teste</p>
+    <p class="bold_test">teste</p>
+    <Button label="Success" severity="danger" />
+    <h1>Nuxt <b>Routing</b> set up successfully!</h1>
+    <p><b>Current route</b>: {{ route.path }}</p>
+    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
+  </div>
+</template>
+
+<style lang="css">
+  .bold_test {
+    font-weight: bold;
+  }
+</style>
