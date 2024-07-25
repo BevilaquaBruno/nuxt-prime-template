@@ -8,10 +8,10 @@ const route = useRoute()
     <i class="pi pi-times"></i>
     <span class="pi pi-search"></span>
     <span class="pi pi-user"></span>
-    <p>teste</p>
-    <p class="bold_test">teste</p>
+    <p>Test font in normal weight</p>
+    <p class="bold_test">Test font in bold</p>
     <Button label="Success" severity="danger" />
-    <h1>Nuxt <b>Routing</b> set up successfully!</h1>
+    <h1>Nuxt <b>Routing</b> is active!</h1>
     <p><b>Current route</b>: {{ route.path }}</p>
     <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
   </div>
